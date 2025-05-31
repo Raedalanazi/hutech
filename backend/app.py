@@ -1,5 +1,5 @@
 from fastapi import FastAPI
-from backend.routers import employees
+from routers import employees
 
 app = FastAPI()
 app.include_router(employees.router)
